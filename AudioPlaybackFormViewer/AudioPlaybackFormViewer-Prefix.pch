@@ -1,0 +1,14 @@
+//
+//  AudioPlaybackFormViewer-Prefix.pch
+//  AudioPlaybackForm
+//
+//  Created by Jonathan Hammond on 15/12/2015.
+//  Copyright © 2015 Just Add Music Media. All rights reserved.
+//
+
+#ifdef __OBJC__
+#   import <UIKit/UIKit.h>
+#   import <Foundation/Foundation.h>
+#   import <RelativeInterface/RelativeInterface.h>
+#   import <Performer/Performer.h>
+#endif
