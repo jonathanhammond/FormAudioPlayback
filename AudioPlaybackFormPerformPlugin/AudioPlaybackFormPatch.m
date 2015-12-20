@@ -11,25 +11,36 @@
 @implementation AudioPlaybackFormPatch
 
 - (void)processPatchWithContext:(PMRProcessContext *)context {
-    // Start off with a black color.
-    RIColorRGBA randomColor = RIColorBlackRGBA;
-    
-    // Get the value from the on/off input.
-    BOOL onOff = _onOffInput.booleanValue;
-    
-    // If the input is on, create a random color.
-    if (onOff)
-        randomColor = RIColorMakeRGBA(randomFloat(),
-                                      randomFloat(),
-                                      randomFloat(),
-                                      1.0);
-    
-    // Store the color in the color output.
-    _colorOutput.colorValue = randomColor;
-}
 
-float randomFloat() {
-    return ((double)arc4random() / 0x100000000);
-}
+    BOOL onOff = _onOffInput.booleanValue;
+ //   NSError *err = nil;
+    //    NSString *path = [NSString stringWithFormat:@"%@/audio.mp3", [[NSBundle mainBundle] resourcePath]];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"audio" ofType:@"mp3"];
+    NSURL *audioFileURL = [NSURL fileURLWithPath:path];
+   // NSURL *filePath1 = [NSURL fileURLWithPath:pathFrase1 isDirectory:NO];
+    
+
+
+    AVAudioPlayer *player = [[AVAudioPlayer alloc] initWithContentsOfURL:audioFileURL error:nil];
+
+   // player = [prepareToPlay];
+
+    _colorOutput.Value = player;
+//[player play];
+    // Get the value from the on/off input.
+    if (onOff)
+    {
+       
+    }
+    else
+    {
+    [player play];
+    }
+    
+     //  BOOL onOff = [player play];
+    // If the input is on, create a random color.
+ //   if (onOff)
+        
+}//b2;
 
 @end

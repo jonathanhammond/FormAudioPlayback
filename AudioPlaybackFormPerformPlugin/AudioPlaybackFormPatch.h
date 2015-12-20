@@ -7,6 +7,7 @@
 //
 
 #import <Performer/Performer.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface AudioPlaybackFormPatch : PMRPatch
 
