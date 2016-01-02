@@ -21,12 +21,8 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		A0C2FD931C20B93900495D86 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A0C2FD921C20B93900495D86 /* audio.mp3 */; };
-		A0C2FE191C20BE2500495D86 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A0C2FD921C20B93900495D86 /* audio.mp3 */; };
-		A0C2FE1A1C20C28B00495D86 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A0C2FD921C20B93900495D86 /* audio.mp3 */; };
-		A0C2FE1C1C20C9A700495D86 /* music_logo.wav in Resources */ = {isa = PBXBuildFile; fileRef = A0C2FE1B1C20C9A700495D86 /* music_logo.wav */; };
+		A0AA400B1C381B6E0025E69F /* Hello.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A0AA400A1C381B6E0025E69F /* Hello.mp3 */; };
 		A0C2FE1E1C20CBB200495D86 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C2FE1D1C20CBB200495D86 /* AVFoundation.framework */; };
-		A0C2FE231C20D2E300495D86 /* ThankYouSilly.aif in Resources */ = {isa = PBXBuildFile; fileRef = A0C2FE221C20D2E300495D86 /* ThankYouSilly.aif */; };
 		A0EDD7D61C20B4410024F344 /* AudioPlaybackFormFormPlugin-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = A0EDD7D51C20B4410024F344 /* AudioPlaybackFormFormPlugin-Prefix.pch */; };
 		A0EDD7D91C20B4420024F344 /* Former.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0EDD7D81C20B4420024F344 /* Former.framework */; };
 		A0EDD7DB1C20B4430024F344 /* RelativeInterfaceMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0EDD7DA1C20B4430024F344 /* RelativeInterfaceMac.framework */; };
@@ -87,11 +83,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A0C2FD921C20B93900495D86 /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio.mp3; sourceTree = "<group>"; };
-		A0C2FE1B1C20C9A700495D86 /* music_logo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = music_logo.wav; sourceTree = "<group>"; };
+		A0AA400A1C381B6E0025E69F /* Hello.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hello.mp3; sourceTree = "<group>"; };
 		A0C2FE1D1C20CBB200495D86 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		A0C2FE201C20CE4400495D86 /* DownTheRoad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = DownTheRoad.mp3; path = "../../LeapTunesPro/Builds/Xcode MountainLion copy/mp3/DownTheRoad.mp3"; sourceTree = "<group>"; };
-		A0C2FE221C20D2E300495D86 /* ThankYouSilly.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = ThankYouSilly.aif; sourceTree = "<group>"; };
 		A0EDD7D11C20B4410024F344 /* AudioPlaybackFormFormPlugin.formplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioPlaybackFormFormPlugin.formplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0EDD7D51C20B4410024F344 /* AudioPlaybackFormFormPlugin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AudioPlaybackFormFormPlugin-Prefix.pch"; sourceTree = "<group>"; };
 		A0EDD7D81C20B4420024F344 /* Former.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Former.framework; path = ../Frameworks/Former.framework; sourceTree = "<group>"; };
@@ -179,10 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				A0C2FE1D1C20CBB200495D86 /* AVFoundation.framework */,
-				A0C2FD921C20B93900495D86 /* audio.mp3 */,
-				A0C2FE221C20D2E300495D86 /* ThankYouSilly.aif */,
-				A0C2FE201C20CE4400495D86 /* DownTheRoad.mp3 */,
-				A0C2FE1B1C20C9A700495D86 /* music_logo.wav */,
+				A0AA400A1C381B6E0025E69F /* Hello.mp3 */,
 				A0EDD7D31C20B4410024F344 /* AudioPlaybackFormFormPlugin */,
 				A0EDD7E91C20B4430024F344 /* AudioPlaybackFormPerformPlugin */,
 				A0EDD7FD1C20B4430024F344 /* AudioPlaybackFormViewer */,
@@ -441,7 +431,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0EDD7D61C20B4410024F344 /* AudioPlaybackFormFormPlugin-Prefix.pch in Resources */,
-				A0C2FD931C20B93900495D86 /* audio.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,9 +438,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0C2FE231C20D2E300495D86 /* ThankYouSilly.aif in Resources */,
-				A0C2FE1A1C20C28B00495D86 /* audio.mp3 in Resources */,
-				A0C2FE1C1C20C9A700495D86 /* music_logo.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,7 +445,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0C2FE191C20BE2500495D86 /* audio.mp3 in Resources */,
 				A0EDD8151C20B4430024F344 /* Roboto-Bold.ttf in Resources */,
 				A0EDD81D1C20B4440024F344 /* Roboto-LightItalic.ttf in Resources */,
 				A0EDD82D1C20B4440024F344 /* RobotoCondensed-Italic.ttf in Resources */,
@@ -483,6 +468,7 @@
 				A0EDD8111C20B4430024F344 /* Roboto-Black.ttf in Resources */,
 				A0EDD80C1C20B4430024F344 /* Connect@2x.png in Resources */,
 				A0EDD80F1C20B4430024F344 /* MaterialIcons-Regular.ttf in Resources */,
+				A0AA400B1C381B6E0025E69F /* Hello.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
